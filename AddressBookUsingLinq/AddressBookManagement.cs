@@ -26,6 +26,34 @@ namespace AddressBookUsingLinq
             dataTable.Rows.Add("Rishitha", "Reddy", "PRP", "JCL", "AP", 509201, 8410257321, "Rishitha@gmail.com");
             dataTable.Rows.Add("SriCharitha", "Reddy", "BPL", "KlKy", "UP", 509206, 8410257123, "Charitha@gmail.com");
             dataTable.Rows.Add("Navya", "Reddy", "MEP", "KlKy", "UP", 509206, 8410257111, "navya@gmail.com");
-        }        
+        } 
+        public void getAllData()
+        {
+            foreach(var data in dataTable.AsEnumerable())
+            {
+                Console.WriteLine("FirstName: " + data.Field<string>("Firstname") + "," 
+                    + "LastName: " + data.Field<string>("LastName") + ","
+                    + "Address: " + data.Field<string>("Address") + ","
+                    + "City: " + data.Field<string>("City") + ","  
+                    + "State: " + data.Field<string>("State") + ","
+                    + "Zip: " + data.Field<double>("Zip") + ","
+                    + "PhoneNumber: " + data.Field<double>("PhoneNumber") + ","
+                    + "Email: " + data.Field<string>("Email"));
+                Console.WriteLine("\n");
+            }
+        }
+        public void UpdatePersonByName()
+        {
+            Console.WriteLine("Enter FirstName : ");
+            string firstName = Console.ReadLine();
+            Console.WriteLine("Enter columnName : ");
+            string columnName = Console.ReadLine();
+            Console.WriteLine("Enter Upadated Value : ");
+            string Updatedvalue = Console.ReadLine();
+            DataRow updatedperson = dataTable.Select("FirstName = '" + firstName + "'").FirstOrDefault();
+            updatedperson[columnName] = Updatedvalue;
+            Console.WriteLine("Contanted is Updated ");
+            getAllData();
+        }
     }   
 }
