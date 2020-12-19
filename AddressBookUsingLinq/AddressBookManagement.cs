@@ -83,5 +83,17 @@ namespace AddressBookUsingLinq
                     "State : " + record.Field<string>("State"));               
             }
         }
+        public void displayCountByCityAndState()
+        {
+            Console.WriteLine("Enter City : ");
+            string city = Console.ReadLine();
+            Console.WriteLine("Enter State : ");
+            string state = Console.ReadLine();
+            var Record = from record in dataTable.AsEnumerable()
+                         where record.Field<string>("City").Equals(city) && record.Field<string>("State").Equals(state)
+                         select record;
+            Console.WriteLine("No.of Records persent in dataTable is " + Record.Count());
+
+        }
     }   
 }
