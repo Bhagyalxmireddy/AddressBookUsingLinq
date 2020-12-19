@@ -1,0 +1,13 @@
+C:\Users\USER\source\repos\AddressBookUsingLinq\AddressBookUsingLinq\bin\Debug\netcoreapp3.1\AddressBookUsingLinq.exe
+C:\Users\USER\source\repos\AddressBookUsingLinq\AddressBookUsingLinq\bin\Debug\netcoreapp3.1\AddressBookUsingLinq.deps.json
+C:\Users\USER\source\repos\AddressBookUsingLinq\AddressBookUsingLinq\bin\Debug\netcoreapp3.1\AddressBookUsingLinq.runtimeconfig.json
+C:\Users\USER\source\repos\AddressBookUsingLinq\AddressBookUsingLinq\bin\Debug\netcoreapp3.1\AddressBookUsingLinq.runtimeconfig.dev.json
+C:\Users\USER\source\repos\AddressBookUsingLinq\AddressBookUsingLinq\bin\Debug\netcoreapp3.1\AddressBookUsingLinq.dll
+C:\Users\USER\source\repos\AddressBookUsingLinq\AddressBookUsingLinq\bin\Debug\netcoreapp3.1\AddressBookUsingLinq.pdb
+C:\Users\USER\source\repos\AddressBookUsingLinq\AddressBookUsingLinq\obj\Debug\netcoreapp3.1\AddressBookUsingLinq.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\AddressBookUsingLinq\AddressBookUsingLinq\obj\Debug\netcoreapp3.1\AddressBookUsingLinq.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\AddressBookUsingLinq\AddressBookUsingLinq\obj\Debug\netcoreapp3.1\AddressBookUsingLinq.AssemblyInfo.cs
+C:\Users\USER\source\repos\AddressBookUsingLinq\AddressBookUsingLinq\obj\Debug\netcoreapp3.1\AddressBookUsingLinq.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\AddressBookUsingLinq\AddressBookUsingLinq\obj\Debug\netcoreapp3.1\AddressBookUsingLinq.dll
+C:\Users\USER\source\repos\AddressBookUsingLinq\AddressBookUsingLinq\obj\Debug\netcoreapp3.1\AddressBookUsingLinq.pdb
+C:\Users\USER\source\repos\AddressBookUsingLinq\AddressBookUsingLinq\obj\Debug\netcoreapp3.1\AddressBookUsingLinq.genruntimeconfig.cache
