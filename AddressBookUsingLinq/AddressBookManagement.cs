@@ -67,5 +67,21 @@ namespace AddressBookUsingLinq
             }
             getAllData();
         }
+        public void displayContactUsingCityOrState()
+        {
+            Console.WriteLine("Enter City : ");
+            string city = Console.ReadLine();
+            Console.WriteLine("Enter State : ");
+            string state = Console.ReadLine();
+            var Record = from record in dataTable.AsEnumerable()
+                         where record.Field<string>("City").Equals(city) || record.Field<string>("State").Equals(state)
+                         select record;
+
+            foreach (var record in Record)
+            {
+                Console.WriteLine("FirstName :" + record.Field<string>("Firstname") + "," + "City :" + record.Field<string>("City") + "," +
+                    "State : " + record.Field<string>("State"));               
+            }
+        }
     }   
 }
