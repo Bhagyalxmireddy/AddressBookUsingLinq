@@ -55,5 +55,17 @@ namespace AddressBookUsingLinq
             Console.WriteLine("Contanted is Updated ");
             getAllData();
         }
+        public void DeletePersonByName()
+        {
+            Console.WriteLine("Enter Firstname: ");
+            string firstName = Console.ReadLine();
+            var data = dataTable.AsEnumerable().Where(x => x.Field<string>("FirstName") == firstName);
+
+            foreach (var rows in data.ToList())
+            {
+                rows.Delete();
+            }
+            getAllData();
+        }
     }   
 }
