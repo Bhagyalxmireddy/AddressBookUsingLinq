@@ -8,7 +8,7 @@ namespace AddressBookUsingLinq
 {
     public class AddressBookManagement
     {
-       
+        public DataTable dataTable = new DataTable();
     }
     
 }
